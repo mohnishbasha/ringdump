@@ -1,6 +1,6 @@
-# ring-backup
+# ringdump
 
-A command-line tool for downloading Ring camera videos filtered by date/time and camera. Built on [`ring-client-api`](https://github.com/dgreif/ring).
+Bulk download and archive Ring security camera footage to local storage. Filter by camera, date range, and event type — motion, doorbell, or person detection. Built on [`ring-client-api`](https://github.com/dgreif/ring).
 
 ## Features
 
@@ -22,8 +22,8 @@ A command-line tool for downloading Ring camera videos filtered by date/time and
 
 ```bash
 # 1. Clone and build
-git clone https://github.com/mohinishbasha/ring-backup.git
-cd ring-backup
+git clone https://github.com/mohnishbasha/ringdump.git
+cd ringdump
 make build
 
 # 2. Get your Ring refresh token
@@ -47,8 +47,8 @@ make download FROM=2024-06-01 TO=2024-06-30
 ## Installation
 
 ```bash
-git clone https://github.com/mohinishbasha/ring-backup.git
-cd ring-backup
+git clone https://github.com/mohnishbasha/ringdump.git
+cd ringdump
 npm install
 npm run build
 ```

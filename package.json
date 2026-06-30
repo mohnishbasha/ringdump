@@ -1,10 +1,10 @@
 {
-  "name": "ring-backup",
+  "name": "ringdump",
   "version": "1.0.0",
-  "description": "Download Ring camera videos by date/time and camera",
+  "description": "Bulk download and archive Ring security camera footage by date, camera, and event type",
   "main": "dist/index.js",
   "bin": {
-    "ring-backup": "dist/index.js"
+    "ringdump": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",

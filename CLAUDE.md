@@ -1,8 +1,8 @@
-# ring-backup — Claude Code Instructions
+# ringdump — Claude Code Instructions
 
 ## Project overview
 
-TypeScript CLI tool that downloads Ring camera videos by date/time range and camera filter.
+TypeScript CLI tool that bulk downloads and archives Ring camera videos by date/time range and camera filter.
 Wraps the `ring-client-api` npm package (unofficial Ring API client).
 
 ## Build & run
