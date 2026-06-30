@@ -1,0 +1,35 @@
+{
+  "name": "ring-backup",
+  "version": "1.0.0",
+  "description": "Download Ring camera videos by date/time and camera",
+  "main": "dist/index.js",
+  "bin": {
+    "ring-backup": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.0.0",
+    "date-fns": "^3.6.0",
+    "got": "^11.8.6",
+    "ring-client-api": "^14.3.0"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.5",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  },
+  "overrides": {
+    "uuid": ">=11.1.1",
+    "cookie": ">=0.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
